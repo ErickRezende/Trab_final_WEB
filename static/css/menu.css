@@ -1,0 +1,54 @@
+.container {
+    width: 37.5rem;
+    height: 37.5rem;
+    background: #eec6a6;
+    text-align: center;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    border: 1rem solid #412d26;
+    border-radius: 1.5rem;
+}
+
+
+.container h1 {
+    font-size: 4rem;
+    font-family: cursive;
+    color: #412d26;
+    text-shadow: 2.5px 1px #241f1d;
+}
+
+.container menu{
+    width: 37.5rem;
+    margin-top: 1.5rem;
+}
+
+.container menu button{
+    display: flexbox;
+    position: relative;
+    width: 25rem;
+    height: 6rem;
+    right: 40px;
+
+    margin: 0.7rem auto;
+
+    background: #be8e66;
+
+    border: 0.6rem solid #412d26;
+    border-radius: 1.5rem;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: cursive;
+    font-size: 2rem;
+    color: #f3d5bd;
+    cursor: pointer;
+}
+
+.container menu button:hover {
+    font-size: 2.25rem;
+    width: 27rem;
+}

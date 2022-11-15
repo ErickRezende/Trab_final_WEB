@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizzpika</title>
+</head>
+<body>
+    <canvas class="canvas"></canvas>
+
+    <script>
+        canvas = document.querySelector("canvas")
+        canvas.width = innerWidth
+        canvas.height = innerHeight
+        context = canvas.getContext("2d")
+    </script>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/board.js" type="module"></script>
+    <script src="./js/questions.js" type="module"></script>
+</body>
+</html>
