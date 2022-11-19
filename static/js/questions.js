@@ -1,12 +1,12 @@
-export const question1 = [
+const question1 = [
     "Qual seu nome?", // Pergunta
     "Joao", // Resposta certa
-    "kdjd", // Aternativa errada
-    "dkdk", // Aternativa errada
-    "edede" // Aternativa errada
+    "Pedrão", // Aternativa errada
+    "Seta", // Aternativa errada
+    "Malu" // Aternativa errada
 ]
 
-export const question2 = [//Gay é normal
+const question2 = [//Gay é normal
     "Qual sua idade?", // Pergunta
     "11", // Resposta certa
     "kdjd", // Aternativa errada
